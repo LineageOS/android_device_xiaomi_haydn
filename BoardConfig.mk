@@ -22,6 +22,7 @@ TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
 BOOT_KERNEL_MODULES := \
     focaltech_touch.ko \
     hwid.ko \
+    msm_drm.ko \
     xiaomi_touch.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
