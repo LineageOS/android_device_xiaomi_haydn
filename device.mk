@@ -25,6 +25,17 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Overlays-RRO
+PRODUCT_PACKAGES += \
+    HaydnCNSettingsProviderOverlay \
+    HaydnCNWifiOverlay \
+    HaydnGLSettingsProviderOverlay \
+    HaydnGLWifiOverlay \
+    HaydnINSettingsProviderOverlay \
+    HaydnINWifiOverlay \
+    HaydnproCNSettingsProviderOverlay \
+    HaydnproCNWifiOverlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
