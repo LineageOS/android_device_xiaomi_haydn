@@ -12,5 +12,8 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
+# Partitions
+BOARD_DTBOIMG_PARTITION_SIZE := 25165824
+
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
