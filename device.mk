@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     HaydnproCNSettingsProviderOverlay \
     HaydnproCNWifiOverlay
 
+# Refresh Rate
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.use_content_detection_for_refresh_rate=false
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
