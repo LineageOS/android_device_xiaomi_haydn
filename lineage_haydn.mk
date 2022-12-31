@@ -21,8 +21,8 @@ PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := lineage_haydn
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="haydn_global-user 12 SKQ1.211006.001 V13.0.3.0.SKKMIXM release-keys"
+    PRIVATE_BUILD_DESC="haydn_global-user 12 SKQ1.211006.001 V13.0.4.0.SKKMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/haydn_global/haydn:12/SKQ1.211006.001/V13.0.3.0.SKKMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/haydn_global/haydn:12/SKQ1.211006.001/V13.0.4.0.SKKMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
