@@ -18,6 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := haydn
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
 
