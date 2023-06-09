@@ -24,10 +24,10 @@ PRODUCT_SYSTEM_NAME := haydn_global
 PRODUCT_SYSTEM_DEVICE := haydn
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="haydn_global-user 13 TKQ1.220829.002 V14.0.3.0.TKKMIXM release-keys" \
+    PRIVATE_BUILD_DESC="haydn_global-user 13 TKQ1.220829.002 V14.0.5.0.TKKMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := Xiaomi/haydn_global/haydn:13/TKQ1.220829.002/V14.0.3.0.TKKMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/haydn_global/haydn:13/TKQ1.220829.002/V14.0.5.0.TKKMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
