@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from haydn V14.0.3.0.TKKMIXM
+# All unpinned blobs below are extracted from haydn V14.0.6.0.TKKMIXM
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
