@@ -108,17 +108,6 @@ vendor/lib/libsndmonitor.so
 vendor/lib/libssrec.so
 
 # Camera
-vendor/lib/libcamxexternalformatutils.so
-vendor/lib/libcamxfacialfeatures.so
-vendor/lib/libcamxfdalgo.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxifestriping.so
-vendor/lib/libcamximageformatutils.so
-vendor/lib/libcamxqsatalgo.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswispiqmodule.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
@@ -314,16 +303,6 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/firmware/CAMERA_ICP.elf
 
 # Camera-sensors
-vendor/lib/libjpege.so
-vendor/lib/libmctfengine_stub.so
-vendor/lib/libmmcamera_bestats.so
-vendor/lib/libmmcamera_cac3.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_lscv35.so
-vendor/lib/libmmcamera_mfnr.so
-vendor/lib/libmmcamera_mfnr_t4.so
-vendor/lib/libmmcamera_pdpc.so
 vendor/lib64/camera/com.qti.eeprom.haydn_ofilm_imx355_bl24s64_ultra_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.haydn_sunny_imx686_gt24p128e_wide_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.haydn_sunny_s5k3t2_p24c64f_front_eeprom.so
