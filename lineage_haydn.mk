@@ -17,8 +17,8 @@ PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := lineage_haydn
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.6.0.UKKMIXM release-keys" \
-    BuildFingerprint=Xiaomi/haydn_global/haydn:14/UKQ1.231207.002/V816.0.6.0.UKKMIXM:user/release-keys \
+    BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.11.0.UKKMIXM release-keys" \
+    BuildFingerprint=Xiaomi/haydn_global/haydn:14/UKQ1.231207.002/V816.0.11.0.UKKMIXM:user/release-keys \
     DeviceProduct=haydn \
     SystemName=haydn_global
 
