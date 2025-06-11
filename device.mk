@@ -32,14 +32,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlays-RRO
 PRODUCT_PACKAGES += \
-    HaydnCNSettingsProviderOverlay \
-    HaydnCNWifiOverlay \
-    HaydnGLSettingsProviderOverlay \
-    HaydnGLWifiOverlay \
-    HaydnINSettingsProviderOverlay \
-    HaydnINWifiOverlay \
-    HaydnproCNSettingsProviderOverlay \
-    HaydnproCNWifiOverlay
+    SettingsProviderOverlayHaydn \
+    SettingsProviderOverlayHaydnCN \
+    SettingsProviderOverlayHaydnIN \
+    SettingsProviderOverlayHaydnproCN \
+    WifiOverlayHaydn \
+    WifiOverlayHaydnCN \
+    WifiOverlayHaydnIN \
+    WifiOverlayHaydnproCN
 
 # Refresh Rate
 PRODUCT_PROPERTY_OVERRIDES += \
