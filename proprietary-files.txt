@@ -90,8 +90,8 @@ vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
 
 # Audio HAL
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/hw/audio.primary.lahaina.so:vendor/lib/hw/audio.primary.haydn.so;FIX_SONAME
+vendor/lib/liba2dpoffload.so:odm/lib/liba2dpoffload.so;MODULE_SUFFIX=_odm
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
@@ -105,7 +105,7 @@ vendor/lib/libhfp.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
-vendor/lib/libssrec.so
+vendor/lib/libssrec.so:odm/lib/libssrec.so;MODULE_SUFFIX=_odm
 
 # Camera
 vendor/lib64/camera/plugins/com.qcom.plugin.gpu.so
