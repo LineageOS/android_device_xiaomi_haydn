@@ -18,6 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := haydn
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
+ODM_MANIFEST_SKUS += haydn_in
+ODM_MANIFEST_HAYDN_IN_FILES := $(DEVICE_PATH)/hidl/manifest_no_nfc.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
 

@@ -1,0 +1,23 @@
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest version="1.0" type="device">
+    <!-- NFC -->
+    <hal format="aidl" override="true">
+        <name>android.hardware.nfc</name>
+    </hal>
+    <hal format="aidl" override="true">
+        <name>vendor.nxp.nxpnfc_aidl</name>
+    </hal>
+    <!-- Secure element -->
+    <hal format="hidl" override="true">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+    </hal>
+    <!-- eSEPowerManager -->
+    <hal format="hidl" override="true">
+        <name>vendor.qti.esepowermanager</name>
+        <transport>hwbinder</transport>
+    </hal>
+</manifest>
