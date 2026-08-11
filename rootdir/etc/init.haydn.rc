@@ -35,18 +35,18 @@ on boot && property:ro.boot.product.hardware.sku=haydnpro
     enable secureelement-hal_1_2
     enable vendor.nfc_hal_service
 
-on boot && property:ro.boot.hwc=CN
+on post-fs-data && property:ro.boot.hwc=CN
     setprop bluetooth.device.default_name "Redmi K40 Pro"
     setprop vendor.usb.product_string "Redmi K40 Pro"
 
-on boot && property:ro.boot.hwc=CN && property:ro.boot.hardware.sku=haydnpro
+on post-fs-data && property:ro.boot.hwc=CN && property:ro.boot.hardware.sku=haydnpro
     setprop bluetooth.device.default_name "Redmi K40 Pro +"
     setprop vendor.usb.product_string "Redmi K40 Pro +"
 
-on boot && property:ro.boot.hwc=GL
+on post-fs-data && property:ro.boot.hwc=GL
     setprop bluetooth.device.default_name "Mi 11i"
     setprop vendor.usb.product_string "Mi 11i"
 
-on boot && property:ro.boot.hwc=IN
+on post-fs-data && property:ro.boot.hwc=IN
     setprop bluetooth.device.default_name "Mi 11X Pro"
     setprop vendor.usb.product_string "Mi 11X Pro"
